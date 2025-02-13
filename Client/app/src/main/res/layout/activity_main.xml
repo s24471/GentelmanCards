@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/playerNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Podaj swoje imię"
+        android:textSize="24sp"/>
+
+    <Button
+        android:id="@+id/findGameButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Szukaj gry"
+        android:textSize="24sp"/>
+
+</LinearLayout>
